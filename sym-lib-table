@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name custom_components)(type Legacy)(uri ${KIPRJMOD}/libraries/custom_libs/custom_components.lib)(options "")(descr ""))
+  (lib (name my_components)(type Legacy)(uri ${KIPRJMOD}/libraries/my_kicad_library/library/my_components.lib)(options "")(descr ""))
+)

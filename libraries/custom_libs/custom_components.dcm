@@ -1,9 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 16554
-D TL16C554
-K 4ch UART FIFO
-F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
-$ENDCMP
-#
 #End Doc Library
