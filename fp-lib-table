@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name My_Components)(type KiCad)(uri ${KIPRJMOD}/libraries/my_kicad_library/My_Components.pretty)(options "")(descr ""))
+  (lib (name Package_QFP)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/Package_QFP.pretty)(options "")(descr ""))
 )
