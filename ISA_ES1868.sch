@@ -29,10 +29,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 6950 1600 6950
 Wire Wire Line
-	2300 7450 1600 7450
-Wire Wire Line
-	2300 7550 1600 7550
-Wire Wire Line
 	2300 7650 1600 7650
 Wire Wire Line
 	2300 7750 1600 7750
@@ -44,10 +40,6 @@ Wire Wire Line
 	2300 8650 1600 8650
 Wire Wire Line
 	2300 8850 1600 8850
-Wire Wire Line
-	2300 8950 1600 8950
-Wire Wire Line
-	2300 9050 1600 9050
 Wire Wire Line
 	4400 6550 3700 6550
 Wire Wire Line
@@ -66,14 +58,6 @@ Wire Wire Line
 	4400 7250 3700 7250
 Wire Wire Line
 	4400 7450 3700 7450
-Wire Wire Line
-	4400 7550 3700 7550
-Wire Wire Line
-	4400 7650 3700 7650
-Wire Wire Line
-	4400 7750 3700 7750
-Wire Wire Line
-	4400 7850 3700 7850
 Wire Wire Line
 	4400 7950 3700 7950
 Wire Wire Line
@@ -106,18 +90,11 @@ Wire Wire Line
 	4400 9350 3700 9350
 Wire Wire Line
 	4400 9450 3700 9450
-NoConn ~ 2300 6750
 NoConn ~ 2300 6850
 NoConn ~ 2300 7150
-NoConn ~ 2300 7850
-NoConn ~ 2300 7950
-NoConn ~ 2300 8050
-NoConn ~ 2300 8150
-NoConn ~ 2300 8250
 NoConn ~ 2300 8350
 NoConn ~ 2300 9150
 NoConn ~ 2300 9350
-NoConn ~ 3700 7350
 NoConn ~ 3700 6450
 Text Label 4400 9450 2    50   ~ 0
 A0
@@ -151,14 +128,6 @@ Text Label 4400 8050 2    50   ~ 0
 A14
 Text Label 4400 7950 2    50   ~ 0
 A15
-Text Label 4400 7850 2    50   ~ 0
-A16
-Text Label 4400 7750 2    50   ~ 0
-A17
-Text Label 4400 7650 2    50   ~ 0
-A18
-Text Label 4400 7550 2    50   ~ 0
-A19
 Text Label 4400 7450 2    50   ~ 0
 AEN
 Text Label 4400 7250 2    50   ~ 0
@@ -256,10 +225,6 @@ Wire Wire Line
 	1500 7350 1500 7400
 Wire Wire Line
 	1500 7350 2300 7350
-Text Label 1600 7450 0    50   ~ 0
-~MEMW
-Text Label 1600 7550 0    50   ~ 0
-~MEMR
 Text Label 1600 7650 0    50   ~ 0
 ~IOW
 Text Label 1600 7750 0    50   ~ 0
@@ -278,8 +243,6 @@ Text Label 1600 8850 0    50   ~ 0
 IRQ3
 Text Label 1600 8950 0    50   ~ 0
 ~DACK2
-Text Label 1600 9050 0    50   ~ 0
-TC
 $Comp
 L power:GND #PWR0132
 U 1 1 60EFBC43
@@ -539,150 +502,41 @@ Wire Notes Line
 	4950 5350 750  5350
 Text Notes 900  15700 0    197  ~ 0
 ISA & Decoupling
-$Comp
-L power:GND #PWR0126
-U 1 1 614742DA
-P 1100 14500
-F 0 "#PWR0126" H 1100 14250 50  0001 C CNN
-F 1 "GND" H 1105 14327 50  0000 C CNN
-F 2 "" H 1100 14500 50  0001 C CNN
-F 3 "" H 1100 14500 50  0001 C CNN
-	1    1100 14500
-	1    0    0    -1  
-$EndComp
+NoConn ~ 2300 9050
 Wire Wire Line
-	1100 14400 1100 14500
+	2300 8950 1600 8950
+Text Label 1600 7850 0    50   ~ 0
+~DACK3
 Wire Wire Line
-	1100 13750 1100 13850
-$Comp
-L power:VCC #PWR0145
-U 1 1 614742E6
-P 1100 13750
-F 0 "#PWR0145" H 1100 13600 50  0001 C CNN
-F 1 "VCC" H 1115 13923 50  0000 C CNN
-F 2 "" H 1100 13750 50  0001 C CNN
-F 3 "" H 1100 13750 50  0001 C CNN
-	1    1100 13750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 663DB2E1
-P 1100 14150
-F 0 "C17" H 1192 14196 50  0000 L CNN
-F 1 "100nF" H 1192 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1100 14150 50  0001 C CNN
-F 3 "~" H 1100 14150 50  0001 C CNN
-	1    1100 14150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C18
-U 1 1 663DCDF9
-P 1550 14150
-F 0 "C18" H 1642 14196 50  0000 L CNN
-F 1 "100nF" H 1642 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1550 14150 50  0001 C CNN
-F 3 "~" H 1550 14150 50  0001 C CNN
-	1    1550 14150
-	1    0    0    -1  
-$EndComp
+	2300 7850 1600 7850
+Text Label 1600 8050 0    50   ~ 0
+~DACK1
 Wire Wire Line
-	1550 13850 1550 14050
+	2300 8050 1600 8050
+Text Label 1600 8250 0    50   ~ 0
+~DACK0
 Wire Wire Line
-	1550 14400 1550 14250
+	2300 8250 1600 8250
 Wire Wire Line
-	1100 14050 1100 13850
+	2300 8150 1600 8150
+Text Label 1600 8150 0    50   ~ 0
+DRQ1
 Wire Wire Line
-	1100 14250 1100 14400
-$Comp
-L Device:C_Small C19
-U 1 1 67C001EA
-P 1950 14150
-F 0 "C19" H 2042 14196 50  0000 L CNN
-F 1 "100nF" H 2042 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1950 14150 50  0001 C CNN
-F 3 "~" H 1950 14150 50  0001 C CNN
-	1    1950 14150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 67C051F6
-P 2350 14150
-F 0 "C20" H 2442 14196 50  0000 L CNN
-F 1 "100nF" H 2442 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2350 14150 50  0001 C CNN
-F 3 "~" H 2350 14150 50  0001 C CNN
-	1    2350 14150
-	1    0    0    -1  
-$EndComp
+	2300 7950 1600 7950
+Text Label 1600 7950 0    50   ~ 0
+DRQ3
 Wire Wire Line
-	2350 13850 2350 14050
+	2300 6750 1600 6750
+Text Label 1600 6750 0    50   ~ 0
+IRQ9
+NoConn ~ 2300 7450
+NoConn ~ 2300 7550
+NoConn ~ 3700 7550
+NoConn ~ 3700 7650
+NoConn ~ 3700 7750
+NoConn ~ 3700 7850
 Wire Wire Line
-	2350 14250 2350 14400
-Wire Wire Line
-	1950 14050 1950 13850
-Wire Wire Line
-	1950 14250 1950 14400
-$Comp
-L Device:C_Small C21
-U 1 1 61A4282F
-P 2750 14150
-F 0 "C21" H 2842 14196 50  0000 L CNN
-F 1 "100nF" H 2842 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2750 14150 50  0001 C CNN
-F 3 "~" H 2750 14150 50  0001 C CNN
-	1    2750 14150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 13850 2750 14050
-Wire Wire Line
-	2750 14400 2750 14250
-$Comp
-L Device:C_Small C22
-U 1 1 6730EDE6
-P 3150 14150
-F 0 "C22" H 3242 14196 50  0000 L CNN
-F 1 "100nF" H 3242 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 3150 14150 50  0001 C CNN
-F 3 "~" H 3150 14150 50  0001 C CNN
-	1    3150 14150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 13850 3150 14050
-Wire Wire Line
-	3150 14250 3150 14400
-Wire Wire Line
-	1100 14400 1550 14400
-Wire Wire Line
-	1100 13850 1550 13850
-Connection ~ 1100 13850
-Connection ~ 1100 14400
-Connection ~ 1550 13850
-Wire Wire Line
-	1550 13850 1950 13850
-Connection ~ 1550 14400
-Wire Wire Line
-	1550 14400 1950 14400
-Connection ~ 1950 13850
-Connection ~ 1950 14400
-Connection ~ 2350 13850
-Connection ~ 2350 14400
-Connection ~ 2750 13850
-Connection ~ 2750 14400
-Wire Wire Line
-	1950 13850 2350 13850
-Wire Wire Line
-	2350 13850 2750 13850
-Wire Wire Line
-	1950 14400 2350 14400
-Wire Wire Line
-	2350 14400 2750 14400
-Wire Wire Line
-	2750 13850 3150 13850
-Wire Wire Line
-	2750 14400 3150 14400
+	3700 7350 4400 7350
+Text Label 4400 7350 2    50   ~ 0
+IOCHRDY
 $EndSCHEMATC
