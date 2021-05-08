@@ -513,10 +513,6 @@ Text Label 1600 8050 0    50   ~ 0
 ~DACK1
 Wire Wire Line
 	2300 8050 1600 8050
-Text Label 1600 8250 0    50   ~ 0
-~DACK0
-Wire Wire Line
-	2300 8250 1600 8250
 Wire Wire Line
 	2300 8150 1600 8150
 Text Label 1600 8150 0    50   ~ 0
@@ -542,12 +538,12 @@ IOCHRDY
 $Comp
 L Memory_EEPROM:93CxxC U4
 U 1 1 60AA3033
-P 16100 8200
-F 0 "U4" H 15850 8450 50  0000 C CNN
-F 1 "93LC66" H 16300 8450 50  0000 C CNN
-F 2 "" H 16100 8200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 16100 8200 50  0001 C CNN
-	1    16100 8200
+P 7350 10300
+F 0 "U4" H 7100 10550 50  0000 C CNN
+F 1 "93LC66" H 7550 10550 50  0000 C CNN
+F 2 "" H 7350 10300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 7350 10300 50  0001 C CNN
+	1    7350 10300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -677,17 +673,6 @@ F 3 "~" H 13800 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13550 3700 13450 3700
-$Comp
-L custom_components:ES1868F U?
-U 1 1 60A9AA6E
-P 11850 7150
-F 0 "U?" H 11400 10050 50  0000 C CNN
-F 1 "ES1868F" H 12200 10050 50  0000 C CNN
-F 2 "" H 11850 8100 50  0001 C CNN
-F 3 "" H 11850 8100 50  0001 C CNN
-	1    11850 7150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:L78L05_TO92 U1
 U 1 1 60ACA4DD
@@ -1432,4 +1417,346 @@ Wire Wire Line
 Connection ~ 11550 11150
 Wire Wire Line
 	11550 11150 11650 11150
+Wire Wire Line
+	10550 4550 11250 4550
+Wire Wire Line
+	10550 4650 11250 4650
+Wire Wire Line
+	10550 4750 11250 4750
+Wire Wire Line
+	10550 4850 11250 4850
+Wire Wire Line
+	10550 4950 11250 4950
+Wire Wire Line
+	10550 5050 11250 5050
+Wire Wire Line
+	10550 5150 11250 5150
+Wire Wire Line
+	10550 5250 11250 5250
+Text Label 10550 5250 0    50   ~ 0
+D0
+Text Label 10550 5150 0    50   ~ 0
+D1
+Text Label 10550 5050 0    50   ~ 0
+D2
+Text Label 10550 4950 0    50   ~ 0
+D3
+Text Label 10550 4850 0    50   ~ 0
+D4
+Text Label 10550 4750 0    50   ~ 0
+D5
+Text Label 10550 4650 0    50   ~ 0
+D6
+Text Label 10550 4550 0    50   ~ 0
+D7
+Wire Wire Line
+	10550 5450 11250 5450
+Wire Wire Line
+	10550 5550 11250 5550
+Wire Wire Line
+	10550 5650 11250 5650
+Wire Wire Line
+	10550 5750 11250 5750
+Wire Wire Line
+	10550 5850 11250 5850
+Wire Wire Line
+	10550 5950 11250 5950
+Wire Wire Line
+	10550 6050 11250 6050
+Wire Wire Line
+	10550 6150 11250 6150
+Wire Wire Line
+	10550 6250 11250 6250
+Wire Wire Line
+	10550 6350 11250 6350
+Wire Wire Line
+	10550 6450 11250 6450
+Wire Wire Line
+	10550 6550 11250 6550
+Text Label 10550 6550 0    50   ~ 0
+A0
+Text Label 10550 6450 0    50   ~ 0
+A1
+Text Label 10550 6350 0    50   ~ 0
+A2
+Text Label 10550 6250 0    50   ~ 0
+A3
+Text Label 10550 6150 0    50   ~ 0
+A4
+Text Label 10550 6050 0    50   ~ 0
+A5
+Text Label 10550 5950 0    50   ~ 0
+A6
+Text Label 10550 5850 0    50   ~ 0
+A7
+Text Label 10550 5750 0    50   ~ 0
+A8
+Text Label 10550 5650 0    50   ~ 0
+A9
+Text Label 10550 5550 0    50   ~ 0
+A10
+Text Label 10550 5450 0    50   ~ 0
+A11
+$Comp
+L 74xx:74LS138 U2
+U 1 1 60EE480A
+P 9300 4800
+F 0 "U2" H 9050 5250 50  0000 C CNN
+F 1 "74LS138" H 9500 5250 50  0000 C CNN
+F 2 "" H 9300 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 9300 4800 50  0001 C CNN
+	1    9300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60EE93BC
+P 9300 4150
+F 0 "#PWR?" H 9300 4000 50  0001 C CNN
+F 1 "VCC" H 9315 4323 50  0000 C CNN
+F 2 "" H 9300 4150 50  0001 C CNN
+F 3 "" H 9300 4150 50  0001 C CNN
+	1    9300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60EE9D00
+P 9300 5550
+F 0 "#PWR?" H 9300 5300 50  0001 C CNN
+F 1 "GND" H 9305 5377 50  0000 C CNN
+F 2 "" H 9300 5550 50  0001 C CNN
+F 3 "" H 9300 5550 50  0001 C CNN
+	1    9300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4150 9300 4200
+Wire Wire Line
+	9300 5500 9300 5550
+Wire Wire Line
+	9800 4500 10150 4500
+Wire Wire Line
+	10150 4500 10150 6750
+Wire Wire Line
+	10150 6750 11250 6750
+NoConn ~ 9800 4600
+NoConn ~ 9800 4700
+NoConn ~ 9800 4800
+NoConn ~ 9800 4900
+NoConn ~ 9800 5000
+NoConn ~ 9800 5100
+NoConn ~ 9800 5200
+Wire Wire Line
+	8800 5100 8300 5100
+Text Label 8300 5100 0    50   ~ 0
+AEN
+$Comp
+L power:VCC #PWR?
+U 1 1 60FCC2B2
+P 8200 4900
+F 0 "#PWR?" H 8200 4750 50  0001 C CNN
+F 1 "VCC" H 8215 5073 50  0000 C CNN
+F 2 "" H 8200 4900 50  0001 C CNN
+F 3 "" H 8200 4900 50  0001 C CNN
+	1    8200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 5000 8200 5000
+Wire Wire Line
+	8200 5000 8200 4900
+Wire Wire Line
+	8800 5200 8300 5200
+Text Label 8300 5200 0    50   ~ 0
+A12
+Wire Wire Line
+	8800 4500 8300 4500
+Text Label 8300 4500 0    50   ~ 0
+A15
+Wire Wire Line
+	8800 4600 8300 4600
+Text Label 8300 4600 0    50   ~ 0
+A14
+Wire Wire Line
+	8800 4700 8300 4700
+Text Label 8300 4700 0    50   ~ 0
+A13
+Wire Wire Line
+	11250 6950 9650 6950
+Wire Wire Line
+	9650 6950 9650 7050
+$Comp
+L Device:C_Small C46
+U 1 1 610719D5
+P 9650 7150
+F 0 "C46" H 9750 7050 50  0000 L CNN
+F 1 "1nF" H 9450 7050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 9650 7150 50  0001 C CNN
+F 3 "~" H 9650 7150 50  0001 C CNN
+	1    9650 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6108E902
+P 9650 7300
+F 0 "#PWR?" H 9650 7050 50  0001 C CNN
+F 1 "GND" H 9655 7127 50  0000 C CNN
+F 2 "" H 9650 7300 50  0001 C CNN
+F 3 "" H 9650 7300 50  0001 C CNN
+	1    9650 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 7250 9650 7300
+Text Label 10550 6950 0    50   ~ 0
+RESETDRV
+Wire Wire Line
+	11250 7150 10550 7150
+Wire Wire Line
+	11250 7050 10550 7050
+Text Label 10550 7150 0    50   ~ 0
+~IOW
+Text Label 10550 7050 0    50   ~ 0
+~IOR
+NoConn ~ 11250 7850
+Wire Wire Line
+	11250 7350 10550 7350
+Wire Wire Line
+	11250 7450 10550 7450
+Wire Wire Line
+	11250 7550 10550 7550
+Text Label 10550 7350 0    50   ~ 0
+IRQ9
+Text Label 10550 7450 0    50   ~ 0
+IRQ5
+Text Label 10550 7550 0    50   ~ 0
+IRQ7
+$Comp
+L custom_components:ES1868F U?
+U 1 1 60A9AA6E
+P 11850 7150
+F 0 "U?" H 11400 10050 50  0000 C CNN
+F 1 "ES1868F" H 12200 10050 50  0000 C CNN
+F 2 "" H 11850 8100 50  0001 C CNN
+F 3 "" H 11850 8100 50  0001 C CNN
+	1    11850 7150
+	1    0    0    -1  
+$EndComp
+Text Label 9900 7650 0    50   ~ 0
+IRQ3
+Text Label 9900 7750 0    50   ~ 0
+IRQ4
+Wire Wire Line
+	10800 7650 11250 7650
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 61200272
+P 10700 7650
+F 0 "JP1" H 10550 7700 50  0000 C CNN
+F 1 "IRQ3 Jumper" H 11000 7700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 7650 50  0001 C CNN
+F 3 "~" H 10700 7650 50  0001 C CNN
+	1    10700 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 7650 9900 7650
+Wire Wire Line
+	10800 7750 11250 7750
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 6124683F
+P 10700 7750
+F 0 "JP2" H 10550 7800 50  0000 C CNN
+F 1 "IRQ4 Jumper" H 11000 7800 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 7750 50  0001 C CNN
+F 3 "~" H 10700 7750 50  0001 C CNN
+	1    10700 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 7750 9900 7750
+NoConn ~ 11250 8650
+NoConn ~ 11250 8250
+Wire Wire Line
+	11250 8050 10550 8050
+Text Label 10550 8050 0    50   ~ 0
+DRQ1
+Wire Wire Line
+	11250 8150 10550 8150
+Text Label 10550 8150 0    50   ~ 0
+DRQ3
+Wire Wire Line
+	11250 8450 10550 8450
+Text Label 10550 8450 0    50   ~ 0
+~DACK1
+Wire Wire Line
+	11250 8550 10550 8550
+Text Label 10550 8550 0    50   ~ 0
+~DACK3
+NoConn ~ 2300 8250
+Wire Wire Line
+	10800 7950 11250 7950
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 6132EA97
+P 10700 7950
+F 0 "JP3" H 10550 8000 50  0000 C CNN
+F 1 "~DRQ2~ Jumper" H 11000 8000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 7950 50  0001 C CNN
+F 3 "~" H 10700 7950 50  0001 C CNN
+	1    10700 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 7950 9900 7950
+Wire Wire Line
+	10800 8350 11250 8350
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 61347C9B
+P 10700 8350
+F 0 "JP4" H 10550 8400 50  0000 C CNN
+F 1 "~DACK2~ Jumper" H 11000 8400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 8350 50  0001 C CNN
+F 3 "~" H 10700 8350 50  0001 C CNN
+	1    10700 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 8350 9900 8350
+Text Label 9900 7950 0    50   ~ 0
+DRQ2
+Text Label 9900 8350 0    50   ~ 0
+~DACK2
+$Comp
+L Connector:DB15_Female_MountingHoles J3
+U 1 1 613666B5
+P 7050 7500
+F 0 "J3" H 7205 7409 50  0000 L CNN
+F 1 "Joystick/MIDI" H 7205 7500 50  0000 L CNN
+F 2 "" H 7050 7500 50  0001 C CNN
+F 3 " ~" H 7050 7500 50  0001 C CNN
+	1    7050 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613977E8
+P 6850 6500
+F 0 "#PWR?" H 6850 6250 50  0001 C CNN
+F 1 "GND" H 6855 6327 50  0000 C CNN
+F 2 "" H 6850 6500 50  0001 C CNN
+F 3 "" H 6850 6500 50  0001 C CNN
+	1    6850 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 6500 6850 6400
+Wire Wire Line
+	6850 6400 7050 6400
+Wire Wire Line
+	7050 6400 7050 6600
 $EndSCHEMATC
