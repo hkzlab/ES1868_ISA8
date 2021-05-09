@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 0)
     (zones 0)
     (modules 107)
@@ -447,7 +447,7 @@
   )
 
   (module My_Components:Conn_Audio_3.5mm_Stereo_SJ1-352XNG (layer F.Cu) (tedit 59B17FC9) (tstamp 6098DEE6)
-    (at 363.474 132.164 270)
+    (at 314.452 119.38 270)
     (descr "Connector, Audio Stereo 3.5mm, CUI SJ1-352XNG")
     (tags "3.5MM STEREO AUDIO CONN CUI SJ1-352XNG")
     (path /62437736)
@@ -490,7 +490,7 @@
   )
 
   (module My_Components:Conn_Audio_3.5mm_Stereo_SJ1-352XNG (layer F.Cu) (tedit 59B17FC9) (tstamp 6098DE01)
-    (at 363.474 118.914 270)
+    (at 314.452 146.304 270)
     (descr "Connector, Audio Stereo 3.5mm, CUI SJ1-352XNG")
     (tags "3.5MM STEREO AUDIO CONN CUI SJ1-352XNG")
     (path /62C8E737)
@@ -533,7 +533,7 @@
   )
 
   (module My_Components:Conn_Audio_3.5mm_Stereo_SJ1-352XNG (layer F.Cu) (tedit 59B17FC9) (tstamp 6098DDEC)
-    (at 363.474 105.664 270)
+    (at 314.452 132.842 270)
     (descr "Connector, Audio Stereo 3.5mm, CUI SJ1-352XNG")
     (tags "3.5MM STEREO AUDIO CONN CUI SJ1-352XNG")
     (path /62F0C535)
@@ -2997,7 +2997,7 @@
   )
 
   (module Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm (layer F.Cu) (tedit 59FEDEE2) (tstamp 60989D0F)
-    (at 307.594 163.068 90)
+    (at 306.07 164.592 90)
     (descr "15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 33.3mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
     (tags "15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 33.3mm mounting-hole-offset 33.3mm")
     (path /613666B5)
@@ -6008,7 +6008,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6004D49E)
-    (at 289.306 114.3 270)
+    (at 269.494 110.998 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
     (path /6116B0B7)
@@ -6047,7 +6047,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6004D489)
-    (at 301.752 115.57 270)
+    (at 283.21 113.03 270)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /6116AF87)
@@ -6197,7 +6197,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6004D405)
-    (at 294.894 124.714)
+    (at 280.67 121.92)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
     (path /61086024)
@@ -6236,7 +6236,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6004D3F0)
-    (at 295.91 115.57 270)
+    (at 276.098 112.268 270)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /610853FE)
@@ -6385,6 +6385,18 @@
     )
   )
 
+  (dimension 8.636 (width 0.15) (layer Dwgs.User)
+    (gr_text "8,636 mm" (at 310.642 197.896) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 306.324 191.008) (xy 306.324 197.182421)))
+    (feature2 (pts (xy 314.96 191.008) (xy 314.96 197.182421)))
+    (crossbar (pts (xy 314.96 196.596) (xy 306.324 196.596)))
+    (arrow1a (pts (xy 306.324 196.596) (xy 307.450504 196.009579)))
+    (arrow1b (pts (xy 306.324 196.596) (xy 307.450504 197.182421)))
+    (arrow2a (pts (xy 314.96 196.596) (xy 313.833496 196.009579)))
+    (arrow2b (pts (xy 314.96 196.596) (xy 313.833496 197.182421)))
+  )
   (gr_line (start 213.36 100.33) (end 312.42 100.33) (layer Edge.Cuts) (width 0.05) (tstamp 6015566D))
   (gr_arc (start 213.36 102.87) (end 213.36 100.33) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 210.82 102.87) (end 210.82 194.31) (layer Edge.Cuts) (width 0.05) (tstamp 6015566C))
