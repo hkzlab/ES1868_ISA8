@@ -1387,7 +1387,7 @@ L Device:Ferrite_Bead_Small L1
 U 1 1 614573F2
 P 7600 8550
 F 0 "L1" H 7700 8596 50  0000 L CNN
-F 1 "Ferrite Bead" H 7700 8505 50  0000 L CNN
+F 1 "Filter" H 7700 8505 50  0000 L CNN
 F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1" V 7530 8550 50  0001 C CNN
 F 3 "~" H 7600 8550 50  0001 C CNN
 	1    7600 8550
