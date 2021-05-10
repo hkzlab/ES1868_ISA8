@@ -3251,7 +3251,7 @@ U 1 1 633797AC
 P 15700 8500
 F 0 "J8" H 15780 8542 50  0000 L CNN
 F 1 "LINE OUT" H 15780 8451 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 15700 8500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 15700 8500 50  0001 C CNN
 F 3 "~" H 15700 8500 50  0001 C CNN
 	1    15700 8500
 	1    0    0    -1  
