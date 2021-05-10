@@ -636,7 +636,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J10
 U 1 1 62332545
 P 11950 12450
 F 0 "J10" H 12000 12767 50  0000 C CNN
-F 1 "Volume buttons" H 12000 12676 50  0000 C CNN
+F 1 "Vol. Btns" H 12000 12676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 11950 12450 50  0001 C CNN
 F 3 "~" H 11950 12450 50  0001 C CNN
 	1    11950 12450
