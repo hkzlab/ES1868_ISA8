@@ -3261,5 +3261,5 @@ Wire Wire Line
 Text Label 17550 4000 0    50   ~ 0
 Filtered_12V
 Text Notes 8500 11950 2    50   ~ 0
-1-2 Internal ROM\n2-3 External ROM
+1-2 External ROM\n2-3 Internal ROM
 $EndSCHEMATC
