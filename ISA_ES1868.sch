@@ -2274,7 +2274,7 @@ L Regulator_Linear:L78L05_TO92 U1
 U 1 1 60ACA4DD
 P 13650 3800
 F 0 "U1" H 13650 4042 50  0000 C CNN
-F 1 "L78L05_TO92" H 13650 3951 50  0000 C CNN
+F 1 "L78L05" H 13650 3951 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 13650 4025 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 13650 3750 50  0001 C CNN
 	1    13650 3800
