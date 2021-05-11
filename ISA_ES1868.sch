@@ -2660,10 +2660,6 @@ F 3 "~" H 2500 11500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2300 8250
-Text Label 4400 7350 2    50   ~ 0
-IOCHRDY
-Wire Wire Line
-	3700 7350 4400 7350
 NoConn ~ 3700 7850
 NoConn ~ 3700 7750
 NoConn ~ 3700 7650
@@ -2842,8 +2838,6 @@ Wire Wire Line
 	2300 8750 1600 8750
 Text Label 1600 8650 0    50   ~ 0
 IRQ5
-Text Label 1600 8550 0    50   ~ 0
-IRQ6
 Text Label 1600 8450 0    50   ~ 0
 IRQ7
 Text Label 1600 7750 0    50   ~ 0
@@ -3039,8 +3033,6 @@ Wire Wire Line
 	2300 8850 1600 8850
 Wire Wire Line
 	2300 8650 1600 8650
-Wire Wire Line
-	2300 8550 1600 8550
 Wire Wire Line
 	2300 8450 1600 8450
 Wire Wire Line
@@ -3262,4 +3254,6 @@ Text Label 17550 4000 0    50   ~ 0
 Filtered_12V
 Text Notes 8500 11950 2    50   ~ 0
 1-2 External ROM\n2-3 Internal ROM
+NoConn ~ 3700 7350
+NoConn ~ 2300 8550
 $EndSCHEMATC
