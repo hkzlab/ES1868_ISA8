@@ -1424,7 +1424,7 @@ U 1 1 613666B5
 P 6500 9500
 F 0 "J3" H 6655 9409 50  0000 L CNN
 F 1 "Joystick/MIDI" H 6655 9500 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6500 9500 50  0001 C CNN
+F 2 "Custom_Connectors:SB_DB15_152-3415" H 6500 9500 50  0001 C CNN
 F 3 " ~" H 6500 9500 50  0001 C CNN
 	1    6500 9500
 	-1   0    0    1   
