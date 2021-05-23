@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 63)
+    (drawings 66)
     (tracks 1514)
     (zones 0)
     (modules 106)
@@ -6329,6 +6329,9 @@
     )
   )
 
+  (gr_circle (center 342.5698 119.380197) (end 338.8995 119.342097) (layer Dwgs.User) (width 0.15) (tstamp 60AA9125))
+  (gr_circle (center 342.5698 146.278403) (end 338.8995 146.240303) (layer Dwgs.User) (width 0.15) (tstamp 60AA9122))
+  (gr_circle (center 342.5698 132.8039) (end 338.8995 132.7658) (layer Dwgs.User) (width 0.15))
   (gr_line (start 309.88 119.38) (end 355.6 119.38) (layer Dwgs.User) (width 0.15))
   (gr_line (start 309.88 132.842) (end 355.6 132.842) (layer Dwgs.User) (width 0.15))
   (gr_line (start 309.88 146.304) (end 355.6 146.304) (layer Dwgs.User) (width 0.15))
