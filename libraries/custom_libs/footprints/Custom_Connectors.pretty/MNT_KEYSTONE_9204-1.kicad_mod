@@ -1,4 +1,4 @@
-(module MNT_KEYSTONE_9204-1 (layer F.Cu) (tedit 60AB86AA)
+(module MNT_KEYSTONE_9204-1 (layer F.Cu) (tedit 60AB9067)
   (fp_text reference REF** (at 18.034 -98.552) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -597,6 +597,8 @@
   (fp_line (start 17.222 -83.566) (end 16.967985 -83.756511) (layer Dwgs.User) (width 0.024893))
   (fp_line (start 2.54 0) (end 0 0) (layer Dwgs.User) (width 0.15))
   (fp_line (start 0 0) (end 0 2.54) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 49.005887 -42.62719) (end 49.513918 -42.62719) (layer Dwgs.User) (width 0.024893))
+  (fp_line (start 49.259902 -42.373174) (end 49.259902 -42.881205) (layer Dwgs.User) (width 0.024893))
   (model "C:/Data/Projects/Adlib/mech/keystone 9202.wrl"
     (offset (xyz 25.39999961853027 -26.66999959945679 6.47699990272522))
     (scale (xyz 10 10 10))
