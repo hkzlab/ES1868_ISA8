@@ -6871,7 +6871,7 @@
   (gr_line (start 244.856 113.284) (end 245.364 113.284) (layer F.SilkS) (width 0.12))
   (gr_line (start 244.856 115.062) (end 244.856 113.284) (layer F.SilkS) (width 0.12))
   (gr_line (start 243.84 115.062) (end 244.856 115.062) (layer F.SilkS) (width 0.12))
-  (gr_text "Rev 1.0" (at 212.344 182.626 90) (layer F.SilkS)
+  (gr_text "Rev 1.1" (at 212.344 182.626 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "ES1868F\nISA 8bit Sound Card\nby Hkz" (at 217.424 154.178 90) (layer F.SilkS)
