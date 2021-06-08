@@ -44,14 +44,17 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 The card was tested on:
 
 * [✅] 286 / DOS 6.22
-* [?] NEC V20 / DOS 6.22
+* [✅] NEC V20 / DOS 6.22 (See **Configuration** section below)
 * [?] 8088 / DOS 6.22
 
 ## Configuration
 
-This card is jumperless and must be configured via the [ESSCFG](software/ESSCFG.EXE) tool under DOS before use.
+This card is jumperless and must be configured before use.
+Under DOS you can us the [ESSCFG](software/ESSCFG.EXE) tool and tweak the volume via [ESSVOL](software/ESSVOL.EXE).
 
-Volume can be tweaked using the [ESSVOL](software/ESSVOL.EXE) software.
+The **recommended** way to do this (especially under a very slow machine, like a V20/8088) is by using the [UNISOUND](https://www.vogons.org/viewtopic.php?f=62&t=72553) configurator.
+
+It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it.
 
 ## Bill of Materials
 
