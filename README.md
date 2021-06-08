@@ -8,6 +8,17 @@ This chip provides **Sound Blaster PRO** and **OPL3** compatibility and is consi
 
 ![Rev. 1.0 Board](pics/rev_1.0_board.jpg)
 
+This board provides the following connections:
+
+* Speaker out (amplified)
+* Line out
+* Line in
+* Microphone in (internal header)
+* Joystick port
+* MIDI on Joystick port
+* Wavetable header
+* Volume control header
+
 ### Disclaimer
 
 I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
@@ -20,6 +31,10 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] FM Synthesis via OPL3 clone
 * [✅] Digital audio playback
 * [✅] Joystick port
+* [✅] Speaker Out (amplified)
+* [?] Line out
+* [?] Line in
+* [?] Microphone in
 * [?] MIDI output via Joystick port
 * [?] Wavetable daughterboard
 
