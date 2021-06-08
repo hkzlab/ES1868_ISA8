@@ -23,6 +23,12 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [?] MIDI output via Joystick port
 * [?] Wavetable daughterboard
 
+The card was tested on:
+
+* [✅] 286 / DOS 6.22
+* [?] NEC V20 / DOS 6.22
+* [?] 8088 / DOS 6.22
+
 ## Configuration
 
 This card is jumperless and must be configured via the [ESSCFG](software/ESSCFG.EXE) tool under DOS before use.
