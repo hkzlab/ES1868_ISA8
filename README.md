@@ -6,7 +6,7 @@
 
 This is a sound card for the ISA 8bit bus sporting the **ES1868F** chip by *ESS Technology*.
 
-This chip provides **Sound Blaster PRO** and **OPL3** compatibility and is considered one of the [best between clone cards](https://www.philscomputerlab.com/ess-audiodrive-es1868.html).
+This chip provides **Sound Blaster PRO** (in stereo) and **OPL3** compatibility (via *ESFM*) and is considered one of the [best between clone cards](https://www.philscomputerlab.com/ess-audiodrive-es1868.html).
 
 ![Rev. 1.0 Board](pics/rev_1.0_board.jpg)
 
@@ -30,8 +30,9 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 ✅ means I tested the functionality and it works, ❌ means I tested the functionality and found issues, ? means that the functionality has yet to be tested.
 
-* [✅] FM Synthesis via OPL3 clone
+* [✅] FM Synthesis via OPL3 clone (**ESFM**)
 * [✅] Digital audio playback
+* [?] Stereo (left/right channel) check
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
 * [?] Line out
