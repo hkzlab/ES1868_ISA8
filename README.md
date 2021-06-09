@@ -35,7 +35,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Stereo (left/right channel) check (Tested with Sound Blaster PRO Test program, digitized sound mode)
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
-* [?] Line out
+* [?] Line out (Works, but need to check signal level and cleanliness)
 * [?] Line in
 * [?] Microphone in
 * [?] MIDI output via Joystick port
@@ -43,7 +43,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 The card was tested on:
 
-* [✅] 286 / DOS 6.22
+* [✅] 286 16Mhz / DOS 6.22
 * [✅] NEC V20 9.54Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] NEC V20 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] 8088 8Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
