@@ -32,7 +32,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 * [✅] FM Synthesis via OPL3 clone (**ESFM**)
 * [✅] Digital audio playback
-* [?] Stereo (left/right channel) check
+* [✅] Stereo (left/right channel) check (Tested with Sound Blaster PRO Test program, digitized sound mode)
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
 * [?] Line out
