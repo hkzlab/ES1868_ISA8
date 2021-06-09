@@ -6,7 +6,7 @@
 
 This is a sound card for the ISA 8bit bus sporting the **ES1868F** chip by *ESS Technology*.
 
-This chip provides **Sound Blaster PRO 2.0** (stereo) and **OPL3** compatibility (via *ESFM*) and is considered one of the [best between clone cards](https://www.philscomputerlab.com/ess-audiodrive-es1868.html).
+This chip provides **Sound Blaster PRO 2.0** (stereo), **OPL3** compatibility (via *ESFM*), MPU-401 support and is considered one of the [best chips](https://www.philscomputerlab.com/ess-audiodrive-es1868.html) used in clone cards.
 
 ![Rev. 1.0 Board](pics/rev_1.0_board.jpg)
 
@@ -44,8 +44,10 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 The card was tested on:
 
 * [✅] 286 / DOS 6.22
-* [✅] NEC V20 / DOS 6.22 (See **Configuration** section below)
-* [?] 8088 / DOS 6.22
+* [✅] NEC V20 9.54Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] NEC V20 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] 8088 8Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] 8088 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 
 ## Configuration
 
@@ -55,6 +57,8 @@ Under DOS you can us the [ESSCFG](software/ESSCFG.EXE) tool and tweak the volume
 The **recommended** way to do this (especially under a very slow machine, like a V20/8088) is by using the [UNISOUND](https://www.vogons.org/viewtopic.php?f=62&t=72553) configurator.
 
 It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it.
+
+**WARNING**: If you use an XT-IDE adapter at the default base address (300h), remember to set the MPU-401 base for this card to something else (like 330h)!
 
 ## Bill of Materials
 
