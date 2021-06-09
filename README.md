@@ -64,3 +64,7 @@ It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it.
 
 **TODO**
 
+## Credits
+
+Thanks to [Sergey Kiselev](https://github.com/skiselev) for his symbol/footprint library!
+
