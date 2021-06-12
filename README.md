@@ -64,6 +64,13 @@ It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it.
 
 **TODO**
 
+## Known Issues
+
+### Rev 1.0
+
+* Joystick plug "J3" silkscreen overlaps with some resistors (fixed in 1.1).
+* The thread in the audio jacks I'm using (Kycon STX-3100-3CB) is flush with the bracket, so if the bracket has some bending, the plug risks to be pushed away (fixed in 1.1 by moving the connectors 0,5mm towards the edge).
+
 ## Credits
 
 Thanks to [Sergey Kiselev](https://github.com/skiselev) for his symbol/footprint library!
