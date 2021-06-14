@@ -36,9 +36,9 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
 * [?] Line out (Works, but need to check signal level and cleanliness)
-* [?] Line in
+* [✅] Line in
 * [?] Microphone in
-* [?] MIDI output via Joystick port
+* [✅] MIDI output via Joystick port (tested using DOSMID MPU mode on a Roland SC55)
 * [?] Wavetable daughterboard
 
 The card was tested on:
