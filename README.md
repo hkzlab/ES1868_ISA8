@@ -2,8 +2,6 @@
 
 ## Introduction
 
-**WARNING:** This card is still undergoing basic testing!
-
 This is a sound card for the ISA 8bit bus sporting the **ES1868F** chip by *ESS Technology*.
 
 This chip provides **Sound Blaster PRO 2.0** (stereo), **OPL3** compatibility (via *ESFM*), MPU-401 support and is considered one of the [best chips](https://www.philscomputerlab.com/ess-audiodrive-es1868.html) used in clone cards.
