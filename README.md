@@ -8,7 +8,7 @@ This is a sound card for the ISA 8bit bus sporting the **ES1868F** chip by *ESS 
 
 This chip provides **Sound Blaster PRO 2.0** (stereo), **OPL3** compatibility (via *ESFM*), MPU-401 support and is considered one of the [best chips](https://www.philscomputerlab.com/ess-audiodrive-es1868.html) used in clone cards.
 
-![Rev. 1.0 Board](pics/rev_1.0_board.jpg)
+![Rev. 1.1 Board](pics/rev_1.1_board.jpg)
 
 This board provides the following connections:
 
@@ -35,7 +35,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Stereo (left/right channel) check (Tested with Sound Blaster PRO Test program, digitized sound mode)
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
-* [?] Line out (Works, but need to check signal level and cleanliness)
+* [✅] Line out
 * [✅] Line in
 * [?] Microphone in
 * [✅] MIDI output via Joystick port (tested using DOSMID MPU mode on a Roland SC55)
@@ -56,7 +56,7 @@ Under DOS you can us the [ESSCFG](software/ESSCFG.EXE) tool and tweak the volume
 
 The **recommended** way to do this (especially under a very slow machine, like a V20/8088) is by using the [UNISOUND](https://www.vogons.org/viewtopic.php?f=62&t=72553) configurator.
 
-It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it.
+It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it, and remember to execute it after setting the `BLASTER` environment variable, for example with the command `SET BLASTER=A220 I5 D1 P330 T5 J201` (clearly changing the parameters depending on your setup).
 
 **WARNING**: If you use an XT-IDE adapter at the default base address (300h), remember to set the MPU-401 base for this card to something else (like 330h)!
 
