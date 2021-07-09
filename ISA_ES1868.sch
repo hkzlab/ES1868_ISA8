@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Quad Serial ISA Adapter"
 Date ""
-Rev "1.0"
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2057,8 +2057,6 @@ F 3 "~" H 13450 5800 50  0001 C CNN
 	1    13450 5800
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 12950 5550
-NoConn ~ 12950 5450
 Text Label 14200 5200 2    50   ~ 0
 AUXBR
 Text Label 14200 5100 2    50   ~ 0
@@ -3298,4 +3296,68 @@ F 3 "~" H 14850 8500 50  0001 C CNN
 	1    14850 8500
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	12950 5550 13350 5550
+Wire Wire Line
+	12950 5450 13350 5450
+$Comp
+L Device:C_Small C32
+U 1 1 60F1ED21
+P 13450 5550
+F 0 "C32" V 13500 5650 50  0000 L CNN
+F 1 "220nF" V 13500 5250 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 13450 5550 50  0001 C CNN
+F 3 "~" H 13450 5550 50  0001 C CNN
+	1    13450 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 60F1ED2B
+P 13450 5450
+F 0 "C31" V 13500 5550 50  0000 L CNN
+F 1 "220nF" V 13500 5150 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 13450 5450 50  0001 C CNN
+F 3 "~" H 13450 5450 50  0001 C CNN
+	1    13450 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J9
+U 1 1 610C363E
+P 14750 5200
+F 0 "J9" H 14830 5242 50  0000 L CNN
+F 1 "AUX_A" H 14830 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14750 5200 50  0001 C CNN
+F 3 "~" H 14750 5200 50  0001 C CNN
+	1    14750 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 5450 14300 5450
+Wire Wire Line
+	14300 5450 14300 5100
+Wire Wire Line
+	14300 5100 14550 5100
+Wire Wire Line
+	13550 5550 14350 5550
+$Comp
+L power:GNDA #PWR0137
+U 1 1 6126B072
+P 14450 5550
+F 0 "#PWR0137" H 14450 5300 50  0001 C CNN
+F 1 "GNDA" H 14600 5500 50  0000 C CNN
+F 2 "" H 14450 5550 50  0001 C CNN
+F 3 "" H 14450 5550 50  0001 C CNN
+	1    14450 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 5200 14350 5200
+Wire Wire Line
+	14350 5200 14350 5550
+Wire Wire Line
+	14450 5550 14450 5300
+Wire Wire Line
+	14450 5300 14550 5300
 $EndSCHEMATC
