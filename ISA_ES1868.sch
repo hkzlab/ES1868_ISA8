@@ -4,7 +4,7 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "Quad Serial ISA Adapter"
+Title "ES1868F ISA8 Audio Card"
 Date ""
 Rev "1.2"
 Comp ""
