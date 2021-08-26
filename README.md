@@ -13,6 +13,7 @@ This board provides the following connections:
 * Speaker out (amplified)
 * Line out
 * Line in
+* AUX in (internal header, since rev 1.2)
 * Microphone in (internal header)
 * Joystick port
 * MIDI on Joystick port
@@ -35,6 +36,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Speaker Out (amplified)
 * [✅] Line out
 * [✅] Line in
+* [?] AUX In
 * [?] Microphone in
 * [✅] MIDI output via Joystick port (tested using DOSMID MPU mode on a Roland SC55)
 * [?] Wavetable daughterboard
