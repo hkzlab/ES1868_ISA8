@@ -36,10 +36,10 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Speaker Out (amplified)
 * [✅] Line out
 * [✅] Line in
-* [?] AUX In
+* [✅] AUX In
 * [?] Microphone in
 * [✅] MIDI output via Joystick port (tested using DOSMID MPU mode on a Roland SC55)
-* [?] Wavetable daughterboard
+* [✅] Wavetable daughterboard
 
 The card was tested on:
 
@@ -48,6 +48,8 @@ The card was tested on:
 * [✅] NEC V20 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] 8088 8Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] 8088 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] 486DX 40Mhz / DOS 7.1 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] Am5x86 40Mhz/160Mhz / DOS 7.1 (Use **UNISOUND**, see **Configuration** section below)
 
 ## Configuration
 
