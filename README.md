@@ -49,7 +49,7 @@ The card was tested on:
 * [✅] 8088 8Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] 8088 4.77Mhz / DOS 6.22 (Use **UNISOUND**, see **Configuration** section below)
 * [✅] 486DX 40Mhz / DOS 7.1 (Use **UNISOUND**, see **Configuration** section below)
-* [✅] Am5x86 40Mhz/160Mhz / DOS 7.1 (Use **UNISOUND**, see **Configuration** section below)
+* [✅] Am5x86 40/160Mhz / DOS 7.1 (Use **UNISOUND**, see **Configuration** section below)
 
 ## Configuration
 
