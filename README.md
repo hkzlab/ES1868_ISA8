@@ -66,6 +66,8 @@ It's important to add the `/XEA` parameter to `UNISOUND.COM` when using it, and 
 
 **TODO**
 
+Value of L1/L2/L3 ferrite beads is non critical. I used [these](https://www.mouser.it/ProductDetail/623-2743001112LF).
+
 ## Known Issues
 
 ### Rev 1.0
