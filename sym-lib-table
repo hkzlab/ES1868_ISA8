@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name custom_components)(type Legacy)(uri ${KIPRJMOD}/libraries/custom_libs/custom_components.lib)(options "")(descr ""))
-  (lib (name my_components)(type Legacy)(uri ${KIPRJMOD}/libraries/my_kicad_library/library/my_components.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "custom_components")(type "Legacy")(uri "${KIPRJMOD}/libraries/custom_libs/custom_components.lib")(options "")(descr ""))
+  (lib (name "my_components")(type "Legacy")(uri "${KIPRJMOD}/libraries/my_kicad_library/library/my_components.lib")(options "")(descr ""))
+  (lib (name "ISA_ES1868-rescue")(type "KiCad")(uri "${KIPRJMOD}/ISA_ES1868-rescue.kicad_sym")(options "")(descr ""))
 )
